@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  border: 1px solid #777172;
+  padding: 10px;
+  border-radius: 40px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(48, 7, 49, 0.5);
+  background: black;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.heading {
+  font-size: 28px;
+  color: whitesmoke;
+  text-align: center;
+  border-bottom: 2px solid whitesmoke;
+  border-bottom-width: 4px;
+}
+
+input[type="text"] {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.2);
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: #ffffff;
+  border-bottom: solid #42474d 1px;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  background: transparent;
+  background-color: rgba(79, 78, 78, 0.941);
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #42474d;
+}
+
+.button-first {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+  background-color: rgb(170, 164, 164);
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+  border: 2px solid #42474d;
+}
+
+.button-operator {
+  background-color: #ff9800;
+}
+
+.button-equal {
+  background-color: rgba(79, 78, 78, 0.941);
+  border: none;
+}
+.button-minus {
+  background-color: #ff9800;
+  font-size: 28px;
+}
+
+.button-ac {
+  width: 40%;
+  height: 6vh;
+  border-radius: 7px;
+  border-color: white;
+  color: white;
+  font-size: 24px;
+  margin-top: 4px;
+  background-color: transparent;
+}
+
+.button-ac:hover {
+  background-color: #42474d;
+}
+
+.operator {
+  color: white;
+  background-color: rgb(255, 183, 0);
+  font-size: 28px;
+}
